@@ -12,7 +12,7 @@ exports.commands = {
 	 * It is recommended that you keep the following functions
 	 */
 	about: function(arg, by, room, con) {
-		var text = '**Pokémon Showdown Bot** by: Quinella';
+		var text = '**Welcome to Voyage!** A VPS-hosted Server which is up 24/7. You can get a free league chatroom, and oh, don\'t forget to visit Dun Deal\'s Place (__/ddproom__)!';
 		this.say(con, room, text);
 	},
 	reload: function(arg, by) {
@@ -31,8 +31,8 @@ exports.commands = {
 	 */
 	tell: 'say',
 	say: function(arg, by, room, con) {
-		if (!this.hasRank(by, '+%@&#~')) return false;
-		this.say(con, room, arg + ' (' + by + ' said this)');
+		if (!this.hasRank(by, '%@&#~')) return false;
+		this.say(con, room, arg);
 	},
 
 	joke: function(arg, by, room, con) {
