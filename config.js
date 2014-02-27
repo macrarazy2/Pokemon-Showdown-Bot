@@ -4,7 +4,7 @@
 // If you really don't know how to do this... Run `node getserver.js URL`.
 // Fill in the URL of the client where `URL` is.
 // For example: `node getserver.js http://example-server.psim.us/`
-exports.server = 'sim.psim.us';
+exports.server = 'voyage.psim.us';
 exports.port = 8000;
 
 // This is the server id.
@@ -13,22 +13,22 @@ exports.port = 8000;
 // For example, on the Smogon server, it will say somewhere in the URL
 // ~~showdown, meaning that the server id is 'showdown'.
 // If you really don't know how to check this... run the said script above.
-exports.serverid = 'showdown';
+exports.serverid = 'voyage';
 
 // The nick and password to log in with
 // If no password is required, leave pass empty
-exports.nick = 'Example bot nick';
-exports.pass = '';
+exports.nick = 'Ƥelipper';
+exports.pass = 'shipwreck';
 
 // The rooms that should be joined.
 // Joining Smogon's Showdown's Lobby is not allowed.
-exports.rooms = ['example room name', 'another example'];
+exports.rooms = ['Lobby', 'Dun Deal\'s Place'];
 
 // The character text should start with to be seen as a command.
 // Note that using / and ! might be 'dangerous' since these are used in
 // Showdown itself.
 // Using only alphanumeric characters and spaces is not allowed.
-exports.commandcharacter = '.';
+exports.commandcharacter = '+';
 
 // Whether this file should be watched for changes or not.
 // If you change this option, the server has to be restarted in order for it to
